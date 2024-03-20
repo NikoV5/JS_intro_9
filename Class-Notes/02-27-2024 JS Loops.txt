@@ -1,0 +1,27 @@
+
+Loops: used for iterating repeating tasks in a condensed way that makes it more reusable especially if you need to change something
+
+iteration = each cycle running in a loop
+
+
+
+SYNTAX:
+for(initialization; termination_condition; update) {
+    // code block
+}
+
+
+1. FOR LOOP
+
+    for(let i = 0; i <= 5; i ++) {
+        // block
+    }
+output:
+0
+1
+2
+3
+4
+5
+
+

@@ -1,0 +1,153 @@
+JavaScript
+	- A programming language
+
+---------------------
+
+TypeScript
+	- A programming language
+	- Built on top of JavaScript
+
+---------------------
+
+CPU (Central Processing Unit)
+	- Brain of computer
+
+---------------------
+
+Hardware: All the visible pieces of the computer
+
+---------------------
+
+Software: Application that runs on the computer and written with programming languages	
+
+---------------------
+
+0 = Off
+1 = On
+
+Binary: Computer language
+
+Human		Binary
+0			0000000
+1			0000001
+2			0000010
+3			0000011
+4			0000100
+5			0000101
+6			0000110
+65			01000001
+35			00100011
+
+10101011 -> 171
+
+Bit = One or zero
+Byte = 8 Bits
+Kilobyte = 1024
+
+								Byte
+Bit		Bit		Bit		Bit		Bit		Bit		Bit		Bit
+128		64		32		16		8		4		2		1
+0		1		0		0		0		0		0		1	65 = 64 + 1
+0		1		1		1		0		0		0		1	113 = 64+32+16+1
+
+
+ASCII Table
+
+Cat:
+C = 67		67 in binary = 01000011
+A = 65		65 = 01000001
+T = 84		84 = 01010100
+
+Cat in binary = 01000011-01000001-01010100
+
+Space = 32 in ASCII, 32 in Binary = 00100000
+
+C T = 01000011-00100000-01010100
+CT  = 01000011-01010100
+
+
+The gist about binary and ASCII, every space, number, letter, uppercase, lowercase, ALL MATTER WHEN CODING AND COULD MESS UP YOUR CODE
+
+---------------------
+
+Natural Languages
+
+Programming languages
+50-100 keywords
+var, let, const, class, static, final
+
+Syntax: Grammar rules of the programming languages
+
+**Grammar matters in coding**
+
+---------------------
+
+ES6 or ES2015 = hen the released happened with javascript in 2015
+ECMA Script = JavaScript
+
+
+-JavaScript is an interpreted language (Predicting what you type)
+-There are also compiled languages (Java, C#, C++)
+
+---------------------
+
+Commonly Known tools with funny names
+CHai, Mocha, Expresso
+Eggplant, cucumber, gherkin
+
+---------------------
+
+1: Get the language runtime environment - Node.js
+2: The best IDE to write and execute the code
+	- Visual Studio Code (the best), Intellij Idea, Eclipse IDE, Sublime, Atom
+
+IDE: Integrated Development environment
+EXECUTE = Run (obviously)
+COMPILE = Syntax error (Grammar Error)
+
+---------------------
+
+
+Syntax Rules YOU MUST FOLLOW
+
+
+Conventions: Not MUST but followed by almost all the programmers. Good to follow especially since everyone else does it. You dont want to be the one person who doesnt.
+**Finish every line of code with a semi-colon**
+	(Not required anymore by javascript, but you should still do it anyway bc its normal)
+
+
+Statement =  Each specific line of code
+    - Each statement is followed by a semi-colon (;)
+
+---------------------
+
+SHORTCUTS
+Multi-line typing editing:
+Press Option and select all the lines/edit/esc
+
+How to duplicate a statement to next or previous line
+OPTION + SHIFT + UP or DOWN Arrow
+
+Terms
+[] = Square brackets
+{} = Curly braces or curly brackets
+/ = foward slash
+\ = Backward slash or back slash
+| = Pipe or or
+|| = Or
+&& = and
+* = asterisk or Star
+% = Modulus or Remainder
+! = Exclamation or NOT
+
+Comments:
+// single line
+
+/*
+Multi line
+*/
+
+
+Runtime error: theses are the errors you will see only when you execute the code
+
+

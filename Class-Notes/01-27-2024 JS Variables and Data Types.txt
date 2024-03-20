@@ -1,0 +1,136 @@
+Recap: 
+
+Variables: These are special containers that stores some data
+Strings: Any text data is string. (name, quote, sentence, paragraph address)
+Number: Price, age, count, decimal
+
+var-let-const:
+
+var: Old, not used anymore
+let: Came with ES6 (ES2015), is mutable, meaning it chan be changed/updated
+const: (constant) Came with ES6 (ES2015), cannot be changed
+
+EcmaScript: Standard of JavaScript
+
+ex: 
+
+var name = 'John';
+var age = 25;
+
+let address = '123 main streee';
+address = 'Miami'; // allowed
+
+const pi = 3.14;
+pi = 5; // not allowed, (TypeError)
+
+
+Declaration
+let address; 
+
+
+Assignment
+address = 'Chicago';
+
+
+Re-Assignment
+address = 'Miami';
+
+
+Initialization (declaration + Assignment)
+let address = 'chicago';
+
+
+Variable Naming Rules
+syntax:
+    - the first character of the variable cannot be a digit but digits can be used anywhere else
+    - no spaces allowed in the variable name
+    ex:
+    Cant do this: let first name = 'john'; // because there are spaces
+    you can do this let firstName = 'john';
+    - the special characters except _, $, and other currencies are not allowed in the variable name
+    - reversed keywords cannot be used as your variable names
+        var, let, const, class, static, byte, boolean, true, false
+    - do not use a variable name twice/ compiler error
+     Ex:
+
+     let companyName = 'Apple';
+     let companyName = 'Microsoft':
+     (this is wrong because you cant have two "companyName", names.)
+
+     let companyName = 'Apple';
+     let company2Name = 'Apple';
+     (this is correct)
+
+Conventions:
+     - allways follow camelCase rule for naming variables that has multiple words
+     ex: 
+     cant do: let first name = 'john';
+     can do: let firstName = 'john';
+    - We always (98%) start with lowercase for our variable names
+    - we always give meaningful names to our variables
+
+----------------------------------
+
+const name, age;        // false
+let n1 = 45, n2;        // true
+const num1 = 45, num2;  // false
+let x, let y;           // false
+let a; let b;           // true, but not recommended (we dont put two statements in one line)
+let i1; i2;             // syntax is okay but will get a RunTime error
+
+DATA TYPES
+primitive:
+- string (text data)
+- number 
+- bigint
+- boolean (true/false. only two variables)
+- undefined (item coming soon)
+- null (completely blank)
+- symbol (we will not cover this at all)
+
+let name; // undefined
+let name = null; // absence of data, null means that there will not be a name
+
+middleHicran = 'Zeynep';
+
+let middleJohn = null; // null because he doesnt have a middle name
+
+
+Reference Data Types: thousands built-in 
+(these are more compelx compared to primitive data Types)
+- Arrays functions, objects, collections, date, time, etc....
+
+Boolean:
+(could be true of false or any expression that results in true or false)
+ex:
+3 == 3 -> true
+'abc' == 'abc' -> true
+'Abc' == 'ABC' -> false bc lower case and uppercase are different
+
+3 < 5 -> true
+5 >= 5 -> true
+
+2 * 2 == 4 && 'abc' != 'abc' -> first expression is true, second is false. if one is true and the other is false, then the expression is false
+2 * 2 == 4 || 'abc' != 'abc' -> true 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

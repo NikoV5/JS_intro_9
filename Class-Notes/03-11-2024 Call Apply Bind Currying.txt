@@ -1,0 +1,9 @@
+
+
+
+Both call and apply are used to define this and additional arguments for the specified object
+
+call(this, arguments);
+call(this, [arguments]);
+
+

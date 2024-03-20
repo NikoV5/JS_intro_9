@@ -1,0 +1,48 @@
+
+
+GIT: Global information tracker
+    - It monitors the changes in a project
+    - It allows team members to work together in the same project
+
+GitHub: Is a hosting website for GIT
+Same thing with the competitors GitLab, Bitbucket
+
+
+
+Pushing a local project to REMOTE (Github, GitLap, Bitbucket repo etc):
+
+    1. Create a local project
+
+    2. Create a remote repo
+
+    3. Initialize your local project with:
+        git Init
+
+    4. Link your local rpoject with remote repositroy with:
+        git remote add origin <remote url>
+
+    5. Stage, commit, and push changes:
+        git add filename -> used to state only specified file
+        git add . -> used to state all the modified files
+        git commit -m "Message" (it will only let you commit if you have a message. Message is required)
+        git push -u origin <branch name> -> used for the first push with a new branch
+        git push -> used after the first push
+
+
+Cloning a REMOTE repository to your local
+
+    1. Create a REMOTE repo
+
+    2. Clone the remote repo to your local with:
+        git clone <remote url>
+
+    3. Make some changes
+
+    4. Stage, commit, and push changes:
+        git add filename -> used to state only specified file
+        git add . -> used to state all the modified files
+        git commit -m "Message" (it will only let you commit if you have a message. Message is required)
+        git push -u origin <branch name> -> used for the first push with a new branch
+        git push -> used after the first push
+
+        git@github.com:TechGlobalSchool/git_demo9.git

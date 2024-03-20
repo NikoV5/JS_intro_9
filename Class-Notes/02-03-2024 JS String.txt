@@ -1,0 +1,54 @@
+
+
+String:
+    - anything represented in quotes ('',"", ``,) - sequence of characters (a-zA-Z0-9special characters)
+
+    '',"ab", "  ", "123", 'true'
+
+    - string is a primitave data type
+    - string concatenation = (+)
+
+        'abc' + '12' + "xy"     -> 'abc12xy'
+
+    - String templates - Template Literals (interpolation) -> added with ES6
+
+        let price = 2;
+        let quantity = 5;
+        let message = `I bought ${quantity} apples for $${price * quantity}.`;
+
+        console.log(message); // Out put would be 'I bought 5 apples for $10
+
+        We can also convert string into numberslet str = '15';
+
+
+
+        let str = '15.5';
+
+        console.log(5 + str); // output would be '515' - because its string
+        console.log(5 + Number(str)); // 20 (adding the number text into it converts the string into number therefore its just normal number)
+        console.log(5 + ParseInt(str)); // 20
+        console.log(5 + ParseFloat(str)); // 20.5
+       
+
+    Length of string = total number of characters in a string including the whitespaces.
+
+
+
+property access vs charAt() method
+- property access returns undefined for invalid indexes
+- charAt() returns '' (empty string)
+
+at() vs charAt()
+- at() method can take negative indexes and returns the character from the end of the indexes
+at(-1) - returns the last character
+at(-2) - returns the second to last character
+- charAt() always returns empty string('') for the negative indexes
+
+NOTE: for the indexes more than or equals the length of the string, at() returns undefined while charAt() returns '' (empty string)
+
+
+
+Search the string for the keys 'Java' in the second half of the string:
+
+'JavaScript is awesome!'.includes('Java', 11) // False
+'JavaScript is awesome!'.includes('Java', 0) // true

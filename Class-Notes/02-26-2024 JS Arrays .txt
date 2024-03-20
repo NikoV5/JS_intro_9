@@ -1,0 +1,78 @@
+
+Arrays: Built-in JS object used to store multiple data.
+
+Arrays Methods:
+Add/Remove elements:
+    push() -> adds element to the end of the array
+    unshift() -> adds element to the beginning of the array
+    pop() -> removes the last element
+    shift() -> removes the first element
+    splice() -> adds or removes or both at the same time to a specified position
+        splice(startingPosition, numberElementsToBeRemoved, addEl1, addEl2....);
+
+Searching elements:
+    includes() -> returns true/false
+    indexOf() -> returns Index of the first occurence
+    lastIndexOf() -> returns Index of the first occurence
+
+
+Get partial array:
+    slice(startIndex) -> partial starting from given index to the end
+    slice(startIndex, endIndex) -> partial array starting from given startIndex to endIndex (exclusive)
+
+Merging arrays:
+    concat() -> put arrays together
+
+NOTE: Spread operator can also be used
+
+Reversing hte order of the elements in an array:
+    reverse()
+
+Checking if a variable is an array:
+    Array.isArray(variable) -> returns true or false
+
+Retrieving elemts from the array:
+    at(index) 
+    [index]
+
+
+14. sort() method (Sorts an array alphabetically. *Be careful with numbers*)
+
+    TASK: used to sort array elements alphanetically - lexicographically
+    RETURN: It modifies and returns the same array
+    ARGUMENTS: no or comparison
+    STATIC or NON-STATIC: non-static
+    DOES IT CHANGE ORIGINAL ARRAY: YES
+
+NOTE: sort() method 
+        - If you want to sort numbers array from smallest to biggest
+            numbers.sort((x, y) => x - y);
+
+        - If you want to sort numbers array from biggest to smallest
+            numbers.sort((x, y) => y - x);
+
+
+15. flat() method
+
+    TASK: used to "flatten" your nested arrays by condensing brackets
+    RETURN: it returns a new array 
+    ARGUMENTS: zero or depth (how much you want to flatten it)
+    STATIC or NON-STATIC: non-static
+    DOES IT CHANGE ORIGINAL ARRAY: NO
+
+
+16. string() method
+
+    TASK: used to convert the array to a string
+    RETURN: it returns a string which is the elements of the array with comma sperated
+    ARGUMENTS: none
+    STATIC or NON-STATIC: non-static
+    DOES IT CHANGE ORIGINAL ARRAY: no
+
+17. join() method
+    TASK: used to convert the array to a string
+    RETURN: it returns a string which is the elements of the array with comma sperated IF no arguments are provided
+    ARGUMENTS: no argument or seperator
+    STATIC or NON-STATIC: non-static
+    DOES IT CHANGE ORIGINAL ARRAY: no
+

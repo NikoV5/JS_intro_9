@@ -1,0 +1,53 @@
+------------------
+ES6 Features:
+Backticks: String templates or string literals (``)
+------------------
+You can write multiple scripts in one line, however its more user friendly and nice looking if you put each line of code in there own line
+
+Conventions: We always put one statement per line
+------------------
+never have odd number of backslashes in line
+------------------
+Variables: Special containers that store data in any programming language
+30-40
+let-var-const (all are used to create variables that stores a piece of data such text, numbers, or collection)
+
+Data types 
+String: text data types (name, address, phone number, special characters,ssn)
+Strings are store3d in quotes (single or double quotes)
+
+ex:
+let name = 'niko';
+let city = "chicago";
+
+Number: whole (absolute) number and floating numbers (decimal points)
+
+ex: 1,5,3000,55
+    10.99, 3.5
+
+Let price = 10.99;
+let age = 27;
+
+Naming Variables:
+Syntax:
+ - You cannot have spaces.
+ - You cannot start with digits but use digits anywhere else.
+ - You cannot use any special characters but _, $ and all other currency signs and you can use these even as the first characters
+ - you cannot use any reserved keyword 
+ var let const class static 
+ - You cannot use a variable name twice.
+
+ Convention:
+  - We start with lowercase
+  - We follow camel-case rule -> bankAccountNumber
+  - We should always give meaningful names to our variables
+
+ex: 
+let country = 'USA';
+let city = 'Chicago';
+
+x, y, z, a, b, c 
+
+
+
+-------------------

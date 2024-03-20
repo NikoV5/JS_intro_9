@@ -1,0 +1,43 @@
+
+
+RECAP:
+
+
+Differences:
+    - What they return in case the index is positive and not valid
+    - what they return in case the index is negative
+        name [5];// undefined
+        name.charAt(5); // ''
+        name.at(5); // undefined
+        namae[-1]; // undefined
+        name.charAt(-1); // ''
+        name.at(-1); // 's'
+
+
+- startsWith() is used to check if the string starts with a specified substring
+    name.startsWith('j'); // true
+    name.startsWith('Jam'); // true
+    name.startsWith('jam'); // false
+    - endsWith() is used to check if the string ends with a specified substring
+    name.endsWith('s');// true
+    name.endsWith('es');// true
+    name.endsWith('se');// false
+
+- includes() is used to check if the string contains a specified substring
+    name.includes('J'): // true
+    name.includes('e'): // true
+    name.includes('mes'): // true
+    name.includes('mes '): //false
+    
+- toUpperCase() is used to convert the given string to upper cases
+    name.toUpperCase(); // 'JAMES'
+
+-toLowerCase() is used to convert the given string to toLowerCase
+    name.toUpperCase(); // 'james'
+
+
+
+
+NEW:
+
+Indexes start with 0!!!!

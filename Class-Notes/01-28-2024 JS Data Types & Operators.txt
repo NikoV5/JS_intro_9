@@ -1,0 +1,96 @@
+Array:
+    - Collection of data stored as elements
+    - each element iwll be assigned an index by which you can updat, delete, move
+
+Array First and Last Elements
+array[0]                    -> will always return first element
+array[array.length - 1]     -> will always return to last element
+
+
+
+
+let student1_name = 'John';
+let student1_age = 25;
+let student1_address = 'Chicago';
+
+
+const student1 = {
+    name: 'John',
+    age: 25,
+    address: 'Chicago'
+};
+
+keys: name, age, address
+values: 'John', 25, 'Chicago'
+
+const student1 = {
+    name: 'Hicran',
+    age: 15,
+    address: 'Evanston'
+};
+
+-----------------------------------
+
+Assignment operators: Used to assign values to variables.
+= is the assignment operators
+let name = '';
+
+-----------------------------------
+
+ORDER OF OPERATIONS
+pemdas:
+1. paranthesis
+2. exponents
+3, multiplication or division
+4. addition or subtraction
+
+(5 * 3) / 2 + 1.5
+15 / 2 + 1.5
+7.5 + 1.5
+= 9
+
+
+% (modulus) -> remainder
+num1 % num 2 = 
+left number > right number
+calculate and find the remainder
+
+15 % 4 = 3
+
+2. right number > left number
+    - Remainder is always the left number directly
+
+7 % 8 = 7
+
+3. right number equals left number
+    - remainder is always 0
+
+4. left number > right number and left number is divisable by right number
+    - remainder is always 0
+
+4 % 2 = 0 
+
+
+
+
++ operator confusion
+1. + is used for concatenation
+1. + is used for addition
+
+1+1             = 2
+'1' + '1'       = '11'
+1 + '1'         = '11'
+'1' + 1         = '11'
+
+'1' + 1 + 1     = '111'
+'1' + (1 + 1)   = '12'
+
+3 * 5           = 15
+'3' * '5'       = 15
+'15' / '5'      = 3
+
+'abc' * 'xyz'   = NaN (Not a Number)
+'1' - 1 + 1     = 1
+
+
+NOTE: Be careful with + and - OPERATIONS due to the + being used for both concatenation and addition

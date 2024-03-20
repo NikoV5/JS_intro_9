@@ -1,0 +1,68 @@
+
+RECAP:
+
+== VS ===
+!= vs !==
+
+=== -> both values and data types should be equal
+!= -> not equal
+!== -> data types and values have to be equal
+== -> equal
+
+falsy values: false, 0, null, undefined, '', NaN
+|| -> 
+?? -> nullish operator
+
+
+
+
+if you put these two different things into console.log:
+typeof - > if you are wondering what type of data you are using
+variable -> if you want answer to your data
+
+
+-------------------------------------------
+
+JS Numbers: floating numbers (numbers with decimals), absolute number (whole numbers)
+number: 64 bits and under
+bigint: 64 bits and up
+
+
+
+-----------
+JavaScript Number Functions:
+
+toString() - returns a number as a string
+toFixed() - returns a number written with a number of decimals
+toPrecision() - returns a number written witha  specified length
+
+
+
+Converting Variable Numbers:
+
+Number() - returns a number converted from its argument
+parseFloat() - parses its argument and returns a floating number
+parseInt() - parses its argument and returns a whole number
+
+
+
+
+*All of these remove the integer and leave it at a whole number
+ceil() - rounds to the upward integer
+floor() - rounds to the downward integer
+round() - rounds to the nearest integer
+trunc() - returns the integer part of the number
+random() - returns a random number between 0 and 1 (0 included by 1 excluded)
+sqrt() -
+
+random() generate a random number between 5 and 10 both inclusive
+5, 6, 7, 8
+
+
+Generate a random number between a and b
+We assume a is less than b
+
+
+generate random number between 123 and 267
+console.log(Math.floor(Math.random() * (267 - 123 + 1)) + 123);
+

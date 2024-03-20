@@ -1,0 +1,108 @@
+
+CLI = Command Line interface
+GUI = Graphical user interface
+
+
+
+Mac: Terminal
+Windows: Command Prompt, Shell, PowerShell
+
+
+
+home directory:
+Mac: Users/{username}       -> users/nikov
+Windows: C:\Users\{username}
+
+
+
+Root Directory: 
+Mac: /
+windows: c:\
+
+
+
+Directory = Folder
+
+
+PATH - Location of the js-intro-9
+users/nikov/js-intro-9
+
+
+
+
+1. Check your current location (where you are)
+MAC: pwd
+Windows: cd
+
+
+
+2. List the folders and files in the current location
+MAC: ls (for non hidden) and ls -a (for hidden files as well)
+Windows: dir (Gives you both hidden and non hidden)
+
+
+
+3. Clear working space - Terminal or command prompt
+MAC: clear
+Windows: cls
+
+
+
+4. Navigate into child directory
+MAC & Windows: cd {directoryName}
+
+
+
+5. Navigate back to parent directory
+MAC & Windows: cd .. 
+
+Move multiple steps:
+Child in MAC: cd {firstChild}/{secondChild}/{thirdChild}
+Child in Windwos: cd {firstChild}\{secondChild}\{thirdChild}
+
+Parent in MAC: cd ../../..
+Parent in Windows: cd ..\..\..
+
+
+
+6. Creating new folders or directories:
+MAC and Windows: mkdir {directoryName}
+
+
+
+7. Deleting existing folers or directories which are empty:
+MAC and Windows: rmdir {directoryName}
+
+NOTE: 
+If your folder has multiple words in the name -> mkdir "{directoryName}"
+If you want to create multiple folders at once -> mkdir {directoryName} {directoryName1} {directoryName2}
+
+
+8. Deleting existing folers or directories which are NOT empty:
+MAC: rm -lf {directoryName}
+Windows: rmdir /s {directoyName} (deleting with caution (y/n))
+Windows: rmdir /s /q {directoyName} (delete with no question)
+
+9. Navigating to the root directory (from anywhere)
+MAC and Windows: cd /
+
+10. Navigating to the home directory (from anywhere)
+MAC: cd ~ or cd
+Windows: cd %userprofile%
+
+11. Creatings new empty files
+MAC: Touch {fileName}
+Windows: echo. > {fileName}
+
+12. Deleting existing files
+MAC: rm {fileName}
+Windows: del {fileNmae}
+
+13. Creating a new file with intitial text
+MAC and Windows: echo "{content}" > {fileName}
+
+
+Visual studio code is an IDE
+IDE = Integrated Development Environment
+Extensions, terminal, console, debugging, organzing, folder structure etc...
+
