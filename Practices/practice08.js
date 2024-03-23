@@ -7,6 +7,7 @@ class Author {
     this.lastname = lastname;
     this.country = country;
     this.books = books;
+
     }
     getFullName() {
         return `${this.firstname} ${this.lastname}`;
@@ -19,7 +20,10 @@ class Author {
 
 
 
-// task 2
+
+
+
+// Task 2
 class Book {
     constructor(title, genre, page) {
         this.title = title;
@@ -29,30 +33,34 @@ class Book {
 }
 
 
-// Task 3
 
+
+
+
+// Task 3
 const book1 = new Book('A Game of Thrones', 'Epic Fantasy', 694);
 const book2 = new Book('A Clash of Kings', 'Epic Fantasy', 768);
 const book3 = new Book('A Storm of Swords', 'Epic Fantasy', 973);
 
-const author1 = new Author('George R. R.', 'Martin', 'United States', [book1, book2, book3]);
+const author1 = new Author('George R. R.', 'Martin', 'United States', [ book1, book2, book3 ]);
 
 
+console.log(author1.getFullName()); // George R. R. Martin
 
-console.log(author1.getFullName());
 
-
-const books = [book1, book2, book3] 
-
-for(const book of books) {
+for(const book of author1.getBooks()) {
     console.log(book);
-}
+} /* Book { title: 'A Game of Thrones', genre: 'Epic Fantasy', page: 694 }
+     Book { title: 'A Clash of Kings', genre: 'Epic Fantasy', page: 768 }
+     Book { title: 'A Storm of Swords', genre: 'Epic Fantasy', page: 973 }
+  */
+
+
+
 
 
 
 // Task 4
-
-
 function Author(firstname, lastname, country, books) {
     this.firstname = firstname;
     this.lastname = lastname;
@@ -87,10 +95,7 @@ const author1 = new Author('George R. R.', 'Martin', 'United States', [book1, bo
 
 console.log(author1.getFullName());
 
-const books = [book1, book2, book3] 
 
-for(const book of books) {
+for(const book of author1.getBooks()) {
     console.log(book);
 }
-
-
