@@ -10,4 +10,4 @@ function generateRandomNumber(a, b) {
 
 
 // Exporting your reusable methods
-module.exports.generateRandomNumber = generateRandomNumbe
+module.exports.generateRandomNumber = generateRandomNumber;
