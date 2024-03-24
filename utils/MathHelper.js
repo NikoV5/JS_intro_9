@@ -7,5 +7,7 @@ function generateRandomNumber(a, b) {
     return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
+
+
 // Exporting your reusable methods
-module.exports.generateRandomNumber = generateRandomNumber;
+module.exports.generateRandomNumber = generateRandomNumbe
