@@ -1,5 +1,4 @@
 
-
 class Actions {
     static visitUrl(url) {
       return new Promise((resolve, reject) => {
@@ -40,6 +39,6 @@ class Actions {
     }
 }
   
+
+
 module.exports.Actions = Actions;
-
-

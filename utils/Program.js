@@ -1,6 +1,4 @@
 
-
-
 class Program {
     static gotoApp() {
         return new Promise((resolve, reject) => {    
@@ -35,5 +33,7 @@ class Program {
         })
     }
 }
+
+
 
 module.exports.Program = Program;

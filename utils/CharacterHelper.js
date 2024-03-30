@@ -58,4 +58,6 @@ const CharacterHelper = {
     isSpecial
 };
 
+
+
 module.exports.CharacterHelper = CharacterHelper;
