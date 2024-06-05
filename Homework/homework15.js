@@ -88,7 +88,7 @@ console.log(isNeutral("+++", "+++"));
 
 function isTrueOrFalse(str) {
   const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  const positiveLetters = new Set(alphabet.slice(0, 13).toLowerCase().split('')); // Set of 'a' to 'm'
+  const positiveLetters = new Set(alphabet.slice(0, 13).toLowerCase().split('')); 
   
   const words = str.split(' ');
   let positiveCount = 0;
