@@ -112,3 +112,4 @@ console.log(isTrueOrFalse("A big brown fox caught a bad rabbit"));
 console.log(isTrueOrFalse("Xylophones can obtain Xenon."));
 console.log(isTrueOrFalse("CHOCOLATE MAKES A GREAT SNACK"));
 console.log(isTrueOrFalse("All FOoD tAsTEs NIcE for someONe")); 
+//
